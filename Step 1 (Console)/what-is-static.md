@@ -21,7 +21,6 @@ Similar to static variables, static methods belong to the class rather than an i
 
 javaCopy code
 
-```java
 public class Example {
     // Static method
     static void staticMethod() {
@@ -29,13 +28,13 @@ public class Example {
     }
 
     // Rest of the class code...
-}``` 
+}
 
 ## When to Use `static`
 
 Use the `static` keyword when you want a member to be associated with the class itself, rather than with instances of the class. Common use cases include utility methods, constants, or variables that need to be shared among all instances.
 
-`public class MathUtils {
+public class MathUtils {
     // Constant
     public static final double PI = 3.14159;
 
@@ -43,4 +42,4 @@ Use the `static` keyword when you want a member to be associated with the class 
     public static double calculateArea(double radius) {
         return PI * radius * radius;
     }
-}` 
+}
