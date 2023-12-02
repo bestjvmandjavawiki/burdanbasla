@@ -1,48 +1,31 @@
-# Understanding the `static` Keyword in Java
+# What is the statick keyword?
 
-In Java, the `static` keyword is used to define a class-level (or static) member. When a member (variable or method) is declared as static, it belongs to the class rather than an instance of the class. Here's how it is used:
-
-## Static Variables
-
-Static variables are shared among all instances of a class. They are declared using the `static` keyword and are initialized only once, at the start of the execution. All instances of the class share the same static variable.
-
-```java
-public class Example {
-    // Static variable
-    static int staticVariable;
-
-    // Rest of the class code...
+```Java
+// 1. Static Method Bulunduran Sınıf
+class StaticMethodClass {
+    // Static method örneği
+    static void staticMethod() {
+        System.out.println("Bu bir static methodtur.");
+    }
 }
 
-## Static Methods
-
-Similar to static variables, static methods belong to the class rather than an instance. They can be called using the class name, without creating an object of the class.
-
-javaCopy code
-
-`public class Example {
-    // Static method
-    static void staticMethod() {
-        // Method code...
+// 2. Static Olmayan Method Bulunduran Sınıf
+class NonStaticMethodClass {
+    // Non-static method örneği
+    void nonStaticMethod() {
+        System.out.println("Bu bir static olmayan methodtur.");
     }
+}
 
-    // Rest of the class code...
-}` 
+// 3. Main Sınıfı
+public class MainClass {
+    public static void main(String[] args) {
+        // Static method çağrısı
+        StaticMethodClass.staticMethod();
 
-## When to Use `static`
-
-Use the `static` keyword when you want a member to be associated with the class itself, rather than with instances of the class. Common use cases include utility methods, constants, or variables that need to be shared among all instances.
-
-javaCopy code
-
-`public class MathUtils {
-    // Constant
-    public static final double PI = 3.14159;
-
-    // Static method for calculations
-    public static double calculateArea(double radius) {
-        return PI * radius * radius;
+        // Static olmayan method çağrısı
+        NonStaticMethodClass nonStaticObj = new NonStaticMethodClass();
+        nonStaticObj.nonStaticMethod();
     }
-}` 
-
-Keep in mind that excessive use of static members may lead to tightly coupled code and reduced testability, so use the `static` keyword judiciously.
+}
+```
