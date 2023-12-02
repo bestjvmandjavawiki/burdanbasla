@@ -1,4 +1,4 @@
-```Java
+Java
 ```
 import java.util.concurrent.atomic.AtomicInteger;
 
