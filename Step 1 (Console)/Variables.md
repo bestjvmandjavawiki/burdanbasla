@@ -1,4 +1,4 @@
-** Variables **
+## Variables 
 ```
 import java.util.concurrent.atomic.AtomicInteger;
 
