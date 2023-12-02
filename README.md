@@ -1,4 +1,4 @@
-# Java Hakkında
+# Java Hakkında sex
 
 Java, platform bağımsız uygulamalar geliştirmek için kullanılan bir programlama dilidir. James Gosling tarafından geliştirilmiş ve Sun Microsystems (şu anda Oracle) tarafından yayımlanmıştır. Java'nın temel amacı, farklı işletim sistemlerinde çalışabilen güvenli ve taşınabilir uygulamalar oluşturmaktır.
 
