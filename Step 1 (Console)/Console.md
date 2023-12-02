@@ -32,5 +32,3 @@ public class ConsoleLogExample {
     }
 }
 ```
-
-Bu örnekte, `System.out.println` kullanarak farklı mesajları ve değişkenleri konsola yazdırmak için örnekler verdim. `System.err.println` ile hata mesajlarını yazdırmak da mümkündür. Ayrıca, `\n` yerine `System.out.println` kullanarak yeni satıra geçiş örneklendi.
