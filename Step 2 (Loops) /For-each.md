@@ -4,31 +4,27 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class ModernForEachExample {
+public class ModernForEachWithLambdaExample {
     public static void main(String[] args) {
-        // Modern for-each loop with List
+        // Modern for-each loop with List and Lambda
         List<String> names = new ArrayList<>();
         names.add("Alice");
         names.add("Bob");
         names.add("Charlie");
 
-        for (String name : names) {
-            System.out.println(name);
-        }
+        names.forEach(name -> System.out.println(name));
 
-        // Modern for-each loop with array
+        // Modern for-each loop with array and Lambda
         int[] numbers = {1, 2, 3, 4, 5};
 
         for (int number : numbers) {
             System.out.println(number);
         }
 
-        // Modern for-each loop with Iterable
+        // Modern for-each loop with Iterable and Lambda
         Iterable<Integer> iterable = List.of(1, 2, 3, 4, 5);
 
-        for (int value : iterable) {
-            System.out.println(value);
-        }
+        iterable.forEach(value -> System.out.println(value));
     }
 }
 ```
