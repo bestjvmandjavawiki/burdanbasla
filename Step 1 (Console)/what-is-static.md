@@ -1,29 +1,29 @@
 # What is the statick keyword?
 
 ```Java
-// 1. Static Method Bulunduran Sınıf
+// Static Method class
 class StaticMethodClass {
-    // Static method örneği
+    // Static method exmp.
     static void staticMethod() {
-        System.out.println("Bu bir static methodtur.");
+        System.out.println("this wiki is awsome ");
     }
 }
 
-// 2. Static Olmayan Method Bulunduran Sınıf
+// Non statick method in class
 class NonStaticMethodClass {
-    // Non-static method örneği
+    // Non-static method exmp.
     void nonStaticMethod() {
         System.out.println("Bu bir static olmayan methodtur.");
     }
 }
 
-// 3. Main Sınıfı
+//  Main Class
 public class MainClass {
     public static void main(String[] args) {
-        // Static method çağrısı
+        // Static method howto Call?
         StaticMethodClass.staticMethod();
 
-        // Static olmayan method çağrısı
+        //Non Static method howto call?
         NonStaticMethodClass nonStaticObj = new NonStaticMethodClass();
         nonStaticObj.nonStaticMethod();
     }
