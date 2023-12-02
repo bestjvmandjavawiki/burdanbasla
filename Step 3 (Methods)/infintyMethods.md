@@ -24,36 +24,21 @@ public class UnlimitedInputExample {
 ## Others
 
 ```Java
-public class InfiniteMethodExample {
+public class VariableArgumentsExample {
 
-    // Infinite method that uses different types of variables
-    public static void performInfiniteOperation() {
-        int counter = 0;
-        double piValue = Math.PI;
-        boolean status = true;
-        char grade = 'A';
+    // Method with variable arguments of type Object
+    public static void printObjects(Object... objects) {
+        System.out.println("Printing Objects:");
 
-        while (status) {
-            // Infinite loop
-            System.out.println("Iteration " + counter);
-            System.out.println("PI Value: " + piValue);
-            System.out.println("Status: " + status);
-            System.out.println("Grade: " + grade);
-            System.out.println();
-
-            // Some logic to break out of the loop after a certain condition
-            if (counter == 5) {
-                System.out.println("Breaking out of the loop!");
-                break;
-            }
-
-            // Increment the counter
-            counter++;
+        for (Object obj : objects) {
+            System.out.println(obj);
         }
     }
 
     public static void main(String[] args) {
-        // Calling the infinite method
-        performInfiniteOperation();
+        // Calling the method with different types and numbers of arguments
+        printObjects("String Object", 42, 3.14, true);
+        printObjects(1, "Another String", false);
+        // You can provide as many objects of different types as needed
     }
 }
