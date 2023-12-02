@@ -37,3 +37,22 @@ public class VariableExample {
 ### Atmoic Variables
 
 ```Java
+import java.util.concurrent.atomic.*;
+
+public class AtomicExamples {
+    public static void main(String[] args) {
+        AtomicInteger atomicInteger = new AtomicInteger(10);
+        System.out.println("Atomic Integer: " + atomicInteger);
+
+        AtomicLong atomicLong = new AtomicLong(100L);
+        System.out.println("Atomic Long: " + atomicLong);
+
+        AtomicBoolean atomicBoolean = new AtomicBoolean(true);
+        System.out.println("Atomic Boolean: " + atomicBoolean);
+
+        // AtomicReference ile bir örnek
+        AtomicReference<String> atomicReference = new AtomicReference<>("Hello");
+        System.out.println("Atomic Reference: " + atomicReference);
+    }
+}
+```
