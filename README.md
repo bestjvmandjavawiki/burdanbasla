@@ -1,4 +1,4 @@
-```markdown
+
 # Java Overview
 
 ## History
@@ -28,4 +28,3 @@
 - **Startup Speed:** Slower compared to some languages.
 - **Complexity:** Perceived as complex due to its size.
 - **GUI Challenges:** GUI development may be more complex.
-```
