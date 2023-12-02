@@ -1,4 +1,4 @@
-``# Understanding the `static` Keyword in Java
+# Understanding the `static` Keyword in Java
 
 In Java, the `static` keyword is used to define a class-level (or static) member. When a member (variable or method) is declared as static, it belongs to the class rather than an instance of the class. Here's how it is used:
 
