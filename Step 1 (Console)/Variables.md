@@ -26,5 +26,4 @@ public class VariableExample {
         System.out.println("Atomic Integer Before Increment: " + atomicInteger.get());
         atomicInteger.incrementAndGet();
         System.out.println("Atomic Integer After Increment: " + atomicInteger.get());
-    }
-}
+    }}
