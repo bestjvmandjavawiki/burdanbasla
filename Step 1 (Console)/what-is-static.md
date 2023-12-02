@@ -12,7 +12,8 @@ public class Example {
     static int staticVariable;
 
     // Rest of the class code...
-}`` 
+}
+``` 
 
 ## Static Methods
 
@@ -20,14 +21,15 @@ Similar to static variables, static methods belong to the class rather than an i
 
 javaCopy code
 
-`public class Example {
+```java
+public class Example {
     // Static method
     static void staticMethod() {
         // Method code...
     }
 
     // Rest of the class code...
-}` 
+}``` 
 
 ## When to Use `static`
 
