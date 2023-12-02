@@ -12,7 +12,7 @@ public class Example {
     static int staticVariable;
 
     // Rest of the class code...
-}```
+}
 
 ## Static Methods
 
