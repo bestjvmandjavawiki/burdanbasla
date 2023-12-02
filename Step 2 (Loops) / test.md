@@ -1,5 +1,5 @@
 # For Loops Old(Before java 4 )/Modern For Loop 
-```java
+```java 
 // Modern for loop (Java 5 and later):
 // Used for iterating over collections and arrays
 List<String> names = Arrays.asList("Alice", "Bob", "Charlie");
